@@ -1,0 +1,15 @@
+.venv/
+**/.venv/
+node_modules/
+**/node_modules/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+dist/
+**/dist/
+.env
+.env.*
+!.env.example
+data/
+pipeline_checkpoints/
+*.log

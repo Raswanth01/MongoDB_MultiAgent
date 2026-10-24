@@ -1,0 +1,25 @@
+{
+  "name": "agenttrace",
+  "version": "0.2.0",
+  "description": "CLI for tracking Python executions with FastAPI and MongoDB",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "agenttrace": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "shell": "tsx src/interactive.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "commander": "^15.0.0",
+    "dotenv": "^18.0.9",
+    "mongodb": "^7.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.3"
+  }
+}
